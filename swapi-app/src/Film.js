@@ -31,7 +31,7 @@ export function Film(props) {
     // }, [props.name]);
 
     return (
-        <div>
+        <div className="film-info">
             {props.film
                 ? <><h2>{title}</h2>
                     <h4>Director: {director}</h4>
